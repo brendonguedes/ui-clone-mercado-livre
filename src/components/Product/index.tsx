@@ -45,18 +45,20 @@ const Product: React.FC = () => {
 const WarrantySection = () => (
   <Section>
     <h4>Garantia</h4>
+    <div>
+      <span>
+        <p className="Title">Compra garantida com o Lorem Ipsum</p>
+        <p className="description">
+          Receba o produto que você está esperando ou devolvemos o seu dinheiro
+        </p>
+      </span>
 
-    <span>
-      <p className="Title">Compra garantida com o Lorem Ipsum</p>
-      <p className="description">
-        Receba o produto que você está esperando ou devolvemos o seu dinheiro
-      </p>
-    </span>
-
-    <span>
-      <p className="Title">Garantia do vendedor</p>
-      <p className="description">Sem garantia</p>
-    </span>
+      <span>
+        <p className="Title">Garantia do vendedor</p>
+        <p className="description">Sem garantia</p>
+      </span>
+    </div>
+    <a href="#">Saiba mais sobre garantia</a>
   </Section>
 );
 
