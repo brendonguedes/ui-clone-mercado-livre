@@ -4,16 +4,19 @@ import { Container, Wrapper } from "./styles";
 
 import Product from "../Product";
 
+import Header from "../Header";
+import Footer from "../Footer";
+
 const Layout: React.FC = () => {
   return (
     <Container>
-      {/* <Header /> */}
+      <Header />
 
       <Wrapper>
         <Product />
       </Wrapper>
 
-      {/* <Fotter /> */}
+      <Footer />
     </Container>
   );
 };

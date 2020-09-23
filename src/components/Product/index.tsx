@@ -1,6 +1,8 @@
 import React from "react";
 
 import tshirtImage from "../../assets/tshirt.png";
+import SallerInfo from "../SellerInfo";
+import ProductAction from "../ProductAction";
 
 import {
   Container,
@@ -30,8 +32,8 @@ const Product: React.FC = () => {
         </Column>
 
         <Column>
-          {/* <ProductActon />
-          <SallerInfo /> */}
+          <ProductAction />
+          <SallerInfo />
 
           <WarrantySection />
           <WarrantySection />
